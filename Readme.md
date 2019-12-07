@@ -1,8 +1,8 @@
-#OVERVIEW
+<h2>OVERVIEW</h2>
 
 This project creates a machine learning pipeline which sends an image as an HTTP POST request to a server which contains a pre-trained classification model(DenseNet-121) and returns the classification result. The entire image classification pipeline is hosted in a docker image, which can run across any docker container, making it platform independent.
 
-#INSTRUCTIONS
+<h2>INSTRUCTIONS</h2>
 
 Please install docker in your machine before running the following instructions. In the repository, we have a Dockerfile, which is a text file and can be used to create a docker image. To do this, we can run the following command in the terminal:
 ```
